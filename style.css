@@ -31,7 +31,7 @@ body { font-family: 'Inter', sans-serif; color: var(--texto); background-color: 
 .hero {
     height: 70vh;
     background: linear-gradient(rgba(10, 46, 92, 0.8), rgba(10, 46, 92, 0.8)), 
-                url('imagem.png'); 
+                url('imagem2.png'); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -41,6 +41,9 @@ body { font-family: 'Inter', sans-serif; color: var(--texto); background-color: 
     color: white;
     padding: 0 20px;
 }
+
+.hero-content h1 { font-size: 3.5rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 2px; }
+.hero-content p { font-size: 1.3rem; margin-bottom: 30px; opacity: 0.9; }
 
 .btn-whatsapp {
     background: var(--verde-wa);
@@ -120,4 +123,5 @@ body { font-family: 'Inter', sans-serif; color: var(--texto); background-color: 
     .navbar { flex-direction: column; gap: 10px; }
 
 }
+
 
