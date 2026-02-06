@@ -30,8 +30,8 @@ body { font-family: 'Inter', sans-serif; color: var(--texto); background-color: 
 /* Banner Hero com Imagem de Fundo */
 .hero {
     height: 70vh;
-    background: linear-gradient(rgba(10, 46, 92, 0.8), rgba(10, 46, 92, 0.8)), 
-                url('imagem2.png'); 
+    background-image: linear-gradient(rgba(10, 46, 92, 0.8), rgba(10, 46, 92, 0.8)),
+        url('imagem2.png'); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -123,5 +123,6 @@ body { font-family: 'Inter', sans-serif; color: var(--texto); background-color: 
     .navbar { flex-direction: column; gap: 10px; }
 
 }
+
 
 
